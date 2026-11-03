@@ -11,14 +11,124 @@ body{
 }
 
 .contenedor{
+    margin: 24px;
+    padding: 24px;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 1120px;
     width: 92%;
     background-color: #FFFFFF;
 }
+.cabecera{
+    background-color: #FFFFFF;
+    height: 80px;
+    width: 100%;
+    float: left;
+    margin-bottom: 0px;
+}
+.cabecera h1{
+    margin: 0;
+    color:darkgreen
+}
+.cabecera p{
+    margin: 0;
+}
+.cabecera img {
+    float: left;
+    width: 10%;
+    min-width: 70px;
+    max-width: 80px;
+    height: auto;
+    padding: 10px;
+}
 
-.contenedor h1{
+.menu{
+    background-color:#088A40;
+    height: 50px;
+    width: 100%;
+    float: left;
+    margin-bottom: 24px;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+
+.menu li{
+    height: 50px;
+    text-align: center;
+    width: 20%;
+    float: left;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    display: block;
+    line-height: 50px;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.menu li:hover{
+    background-color:  #F7CE2A;
+    color: darkgreen;
+}
+.menu li:hover a {
+    color: darkgreen;
+}
+
+.contenido{
+    height: 800px;
+    width: 100%;
+}
+
+.cabecera-contenido{
+
+}
+.cabecera-contenido h2{
+    margin: 0;
     color:darkgreen
 }
 
-img{
-    width: 10%;
+.programas{
+    width: 68%;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+.programa{
+    margin: 2%;
+    width: 45%;
+    padding: 18px;
+    float: left;
+    background-color: #F8FAF5 ;
+    border-radius: 10px;
+    border: 1px solid #CDDEC4 ;
+}
+
+.programa h3{
+    text-transform: uppercase;
+    margin: 0;
+    color:darkgreen
+}
+
+.programa h2{
+    color:darkgreen
+}
+
+.otros{
+    width: 28%;
+    padding: ;
+    float: left;
+    background-color: #EAF3E4;
+    border-radius: 10px;
+    border: 1px solid #CDDEC4  ;
+}
+.otros p{
+    margin: 0;
+    padding: 14px;
+    color:#136A39  
 }
