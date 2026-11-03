@@ -1,0 +1,5 @@
+En .estanteria: para hacer que el elemento se coloque debajo de las dos tarjetas de programas, evitando que se quede a su lado.
+
+En .footer-contenido: para que la franja verde aparezca debajo de las columnas .programas y .otros, y no se coloque a su lado.
+
+si lo quito: Los elementos pueden colocarse al lado de otros en lugar de debajo. Esto puede provocar que las secciones se descoloquen y que la página no tenga la distribución que buscamos.
