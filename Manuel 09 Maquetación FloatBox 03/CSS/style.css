@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400, 700;
+  font-style: normal;
+  background-color: #EFF5EC
+}
+
+.contenedor{
+    width: 92%;
+    background-color: #FFFFFF;
+}
+
+.contenedor h1{
+    color:darkgreen
+}
+
+img{
+    width: 10%;
+}
